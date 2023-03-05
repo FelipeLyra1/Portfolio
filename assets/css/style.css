@@ -1,7 +1,7 @@
 :root {
-    --background-color: rgb(25, 6, 18);
+    --background-color: rgb(6, 25, 24);
     --border-color: rgb(255, 255, 255, 0.1);
-    --highlight-color: rgb(255, 154, 199);
+    --highlight-color: rgb(154, 255, 250);
 
 }
 
@@ -31,6 +31,7 @@ a {
     display: flex;
     font-style: normal;
     font-weight: 600;
+    margin-left: 48px;
 }
 
 a:hover {
@@ -171,7 +172,9 @@ main > article > .article-nav-section {
 }
 
 main > article:first-child > .article-image-section {
-    background-image: url("../Images/programming-1873854.png");
+    background-image: url("../Images/Portrait\ jpg.jpg");
+    background-position-y: -140px;
+
 }
 
 main > article:nth-child(2) > .article-image-section {
@@ -180,6 +183,7 @@ main > article:nth-child(2) > .article-image-section {
 
 main > article:nth-child(3) > .article-image-section {
     background-image: url("../Images/laptop-2562361.jpg");
+    background-position-y:center;
 }
 
 main > article:nth-child(4) > .article-image-section {
@@ -187,7 +191,7 @@ main > article:nth-child(4) > .article-image-section {
 }
 
 .article-image-section {
-    background-size: cover;
+    background-size:cover;
 }
 
 main > article > .article-description-section {
@@ -235,7 +239,7 @@ main > article > .article-nav-section > .article-nav-button {
 }
 
 main > article > .article-nav-section > .article-nav-button:hover {
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: rgba(205, 211, 211, 0.127);
 }
 
 main > article > .article-nav-section > .article-nav-button:nth-child(2) {
@@ -298,41 +302,41 @@ main > article > .article-image-section {
     }
     
     main > article > .article-description-section {
-      justify-content: center;
-      order: 3;
+    justify-content: center;
+    order: 3;
     }
     
     main > article > .article-nav-section {
-      border-bottom: 1px solid var(--border-color);
-      order: 4;
+    border-bottom: 1px solid var(--border-color);
+    order: 4;
     }
-  }
-  
-  @media(max-width: 800px) {  
+}
+
+@media(max-width: 800px) {  
     nav {
-      justify-content: space-between;  
+    justify-content: space-between;  
     }
     
     nav[data-toggled="true"] > #nav-mobile-section {  
-      transform: translateY(0%);
+    transform: translateY(0%);
     }
-  
+
     nav[data-toggled="true"] > #nav-toggle-button {
-      border-left: none;
+    border-left: none;
     }
-  
+
     nav[data-transitionable="true"] > #nav-mobile-section {
-      transition: transform 400ms ease;
+    transition: transform 400ms ease;
     }
     
     nav .nav-section {
-      border-left: none;
-      padding: 1.5rem 1rem;
+    border-left: none;
+    padding: 1.5rem 1rem;
     }
     
     #nav-logo-section > a > i {
-      font-size: 1.5rem;
-      margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
     }
     
     #nav-mobile-section {
