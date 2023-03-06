@@ -427,6 +427,14 @@ p > .image-portrait-section {
     margin-left: 290px;
 }
 
+.link {
+    text-decoration: underline
+}
+
+.link:hover {
+    color: var(--highlight-color);
+}
+
 /* .article-description-section { 
     font-family: 'Montserrat';                      
     display: flex;
