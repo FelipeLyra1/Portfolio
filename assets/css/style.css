@@ -421,11 +421,10 @@ p > .image-portrait-section {
     background-image: url(../Images/Portrait\ jpg.jpg);
     width: 17rem;
     height: 25rem;
-    /* display: flex; */
+    display: flex;
     margin: 10px;
     background-size: cover;
     margin-left: 290px;
-    /* display: flex; */
 }
 
 /* .article-description-section { 
