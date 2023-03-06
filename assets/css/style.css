@@ -172,26 +172,45 @@ main > article > .article-nav-section {
 }
 
 main > article:first-child > .article-image-section {
-    background-image: url("../Images/Portrait\ jpg.jpg");
-    background-position-y: -140px;
+    background-image: url("../Images/code-1076536.jpg");
 
 }
 
 main > article:nth-child(2) > .article-image-section {
-    background-image: url("../Images/code-1076536.jpg");
+    background-image: url("../Images/Sample.JPG");
 }
 
 main > article:nth-child(3) > .article-image-section {
-    background-image: url("../Images/laptop-2562361.jpg");
+    background-image: url("../Images/01-html-css-git-homework-demo.png");
     background-position-y:center;
 }
 
 main > article:nth-child(4) > .article-image-section {
-    background-image: url("../Images/iphone-410324.jpg");
+    background-image: url("../Images/laptop-2562361.jpg");
+}
+
+main > article > .article-description-section {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 4rem; 
+}
+
+main > article > .article-title-section {
+    align-items: center; 
+    justify-content: space-between;
+    padding: 2rem 4rem;
 }
 
 .article-image-section {
     background-size:cover;
+}
+
+main > article > .article-description-section > li {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 251, 251);
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
 }
 
 main > article > .article-description-section {
@@ -223,10 +242,10 @@ main > article > .article-title-section > h2 {
     text-transform: uppercase;
 }
 
-main > article > .article-title-section > i {
+/* main > article > .article-title-section > i {
     color: rgba(255, 255, 255, 0.75);
     font-size:  4rem;
-}
+} */
 
 main > article > .article-nav-section > .article-nav-button {
     background-color: transparent;
@@ -247,10 +266,10 @@ main > article > .article-nav-section > .article-nav-button:nth-child(2) {
 }
 
 main > article > .article-description-section p { 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat';                      
     display: flex;
-    font-style: normal;
-    font-weight: 600;
+    font-style: normal;                                                         
+    font-weight: 500;
 }
 
 
@@ -397,3 +416,23 @@ main > article > .article-image-section {
     font-size: 1rem;
     }
 }
+
+p > .image-portrait-section {
+    background-image: url(../Images/Portrait\ jpg.jpg);
+    width: 17rem;
+    height: 25rem;
+    /* display: flex; */
+    margin: 10px;
+    background-size: cover;
+    margin-left: 290px;
+    /* display: flex; */
+}
+
+/* .article-description-section { 
+    font-family: 'Montserrat';                      
+    display: flex;
+    font-style: normal;                                                         
+    font-weight: 600;
+    color: white;
+    justify-content: space-evenly;
+} */
