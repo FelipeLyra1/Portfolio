@@ -23,3 +23,4 @@
 - **THEN** I am taken to that deployed application
 - **WHEN** I resize the page or view the site on various screens and devices
 - **THEN** I am presented with a responsive layout that adapts to my viewport
+![Capture](https://user-images.githubusercontent.com/122133150/223321261-37397887-520b-4f2b-876b-d65066030b47.JPG)
