@@ -199,6 +199,10 @@ main > article:nth-child(4) > .article-image-section {
     background-image: url("../Images/laptop-2562361.jpg");
 }
 
+main > article:nth-child(5) > .article-image-section {
+    background-image: url("../Images/Screenshot\ 2023-04-10\ at\ 6.57.13\ PM.png");
+}
+
 main > article > .article-description-section {
     flex-direction: column;
     justify-content: flex-end;
